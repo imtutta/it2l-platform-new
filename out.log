@@ -1,0 +1,554 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building iTalk2Learn Platform 1.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for com.google.code:gienah:jar:0.32 is missing, no dependency information available
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ italk2learn ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 10 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ italk2learn ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 68 source files to D:\it2l_tutta\it2l-platform_jose_new\target\classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/util/Italk2learnAuthenticationProvider.java: D:\it2l_tutta\it2l-platform_jose_new\src\main\java\com\italk2learn\util\Italk2learnAuthenticationProvider.java uses or overrides a deprecated API.
+[WARNING] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/util/Italk2learnAuthenticationProvider.java: Recompile with -Xlint:deprecation for details.
+[INFO] 2 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/inter/IExerciseDAO.java:[5,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/inter/IExerciseDAO.java:[11,21] cannot find symbol
+  symbol:   class Exercises
+  location: interface com.italk2learn.dao.inter.IExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/inter/IExerciseDAO.java:[13,16] cannot find symbol
+  symbol:   class Exercises
+  location: interface com.italk2learn.dao.inter.IExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/inter/IExerciseDAO.java:[23,16] cannot find symbol
+  symbol:   class Exercises
+  location: interface com.italk2learn.dao.inter.IExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/inter/IExerciseDAO.java:[25,21] cannot find symbol
+  symbol:   class Exercises
+  location: interface com.italk2learn.dao.inter.IExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/CTATExerciseDAO.java:[9,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/CTATExerciseDAO.java:[10,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/CTATExerciseDAO.java:[11,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[13,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[14,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[15,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[35,21] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[57,16] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[170,16] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[186,21] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/util/UserDetailsAssembler.java:[6,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/util/UserDetailsAssembler.java:[11,54] cannot find symbol
+  symbol:   class Userdetails
+  location: class com.italk2learn.util.UserDetailsAssembler
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/util/UserDetailsAssembler.java:[23,71] cannot find symbol
+  symbol:   class Userdetails
+  location: class com.italk2learn.util.UserDetailsAssembler
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/SequenceDAO.java:[10,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/SequenceDAO.java:[11,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/SequenceDAO.java:[12,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/FractionsLabDAO.java:[9,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/FractionsLabDAO.java:[10,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/FractionsLabDAO.java:[11,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/inter/ILoginUserDAO.java:[5,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/inter/ILoginUserDAO.java:[6,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/inter/ILoginUserDAO.java:[14,9] cannot find symbol
+  symbol:   class User
+  location: interface com.italk2learn.dao.inter.ILoginUserDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/inter/ILoginUserDAO.java:[16,14] cannot find symbol
+  symbol:   class Userdetails
+  location: interface com.italk2learn.dao.inter.ILoginUserDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/WhizzExerciseDAO.java:[9,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/WhizzExerciseDAO.java:[10,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/WhizzExerciseDAO.java:[11,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/util/ExerciseAssembler.java:[6,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/util/ExerciseAssembler.java:[11,56] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.util.ExerciseAssembler
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/util/ExerciseAssembler.java:[20,48] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.util.ExerciseAssembler
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/util/ExerciseAssembler.java:[30,65] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.util.ExerciseAssembler
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/LoginUserDAO.java:[15,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/LoginUserDAO.java:[16,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/LoginUserDAO.java:[52,16] cannot find symbol
+  symbol:   class User
+  location: class com.italk2learn.dao.LoginUserDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/LoginUserDAO.java:[81,21] cannot find symbol
+  symbol:   class Userdetails
+  location: class com.italk2learn.dao.LoginUserDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/CTATExerciseDAO.java:[28,25] cannot find symbol
+  symbol:   class Ctatexercise
+  location: class com.italk2learn.dao.CTATExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/CTATExerciseDAO.java:[28,47] cannot find symbol
+  symbol:   class Ctatexercise
+  location: class com.italk2learn.dao.CTATExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/CTATExerciseDAO.java:[29,25] cannot find symbol
+  symbol:   class User
+  location: class com.italk2learn.dao.CTATExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/CTATExerciseDAO.java:[29,35] cannot find symbol
+  symbol:   class User
+  location: class com.italk2learn.dao.CTATExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/CTATExerciseDAO.java:[29,54] cannot find symbol
+  symbol:   class User
+  location: class com.italk2learn.dao.CTATExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/CTATExerciseDAO.java:[30,25] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.CTATExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/CTATExerciseDAO.java:[30,40] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.CTATExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/CTATExerciseDAO.java:[30,64] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.CTATExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[42,90] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[47,38] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[59,90] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[61,33] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[79,93] cannot find symbol
+  symbol:   class Sequence
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[86,25] cannot find symbol
+  symbol:   class Sequence
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[86,46] cannot find symbol
+  symbol:   class Sequence
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[93,92] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[100,25] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[100,46] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[110,93] cannot find symbol
+  symbol:   class Sequence
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[117,25] cannot find symbol
+  symbol:   class Sequence
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[117,46] cannot find symbol
+  symbol:   class Sequence
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[119,92] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[126,25] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[126,46] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[138,93] cannot find symbol
+  symbol:   class Sequence
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[145,25] cannot find symbol
+  symbol:   class Sequence
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[145,46] cannot find symbol
+  symbol:   class Sequence
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[146,31] cannot find symbol
+  symbol:   class Sequence
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[146,50] cannot find symbol
+  symbol:   class Sequence
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[146,73] cannot find symbol
+  symbol:   class Sequence
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[160,25] cannot find symbol
+  symbol:   class User
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[160,34] cannot find symbol
+  symbol:   class User
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[160,53] cannot find symbol
+  symbol:   class User
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[173,25] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[173,39] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[173,63] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[188,90] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[189,38] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/util/UserDetailsAssembler.java:[27,22] cannot find symbol
+  symbol:   class Userdetails
+  location: class com.italk2learn.util.UserDetailsAssembler
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/SequenceDAO.java:[35,13] cannot find symbol
+  symbol:   class User
+  location: class com.italk2learn.dao.SequenceDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/SequenceDAO.java:[35,23] cannot find symbol
+  symbol:   class User
+  location: class com.italk2learn.dao.SequenceDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/SequenceDAO.java:[35,42] cannot find symbol
+  symbol:   class User
+  location: class com.italk2learn.dao.SequenceDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/SequenceDAO.java:[39,17] cannot find symbol
+  symbol:   class Sequence
+  location: class com.italk2learn.dao.SequenceDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/SequenceDAO.java:[39,34] cannot find symbol
+  symbol:   class Sequence
+  location: class com.italk2learn.dao.SequenceDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/SequenceDAO.java:[40,25] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.SequenceDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/SequenceDAO.java:[40,40] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.SequenceDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/SequenceDAO.java:[40,64] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.SequenceDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/FractionsLabDAO.java:[28,25] cannot find symbol
+  symbol:   class Flexercise
+  location: class com.italk2learn.dao.FractionsLabDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/FractionsLabDAO.java:[28,43] cannot find symbol
+  symbol:   class Flexercise
+  location: class com.italk2learn.dao.FractionsLabDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/FractionsLabDAO.java:[29,25] cannot find symbol
+  symbol:   class User
+  location: class com.italk2learn.dao.FractionsLabDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/FractionsLabDAO.java:[29,35] cannot find symbol
+  symbol:   class User
+  location: class com.italk2learn.dao.FractionsLabDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/FractionsLabDAO.java:[29,54] cannot find symbol
+  symbol:   class User
+  location: class com.italk2learn.dao.FractionsLabDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/FractionsLabDAO.java:[30,25] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.FractionsLabDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/FractionsLabDAO.java:[30,40] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.FractionsLabDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/FractionsLabDAO.java:[30,64] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.FractionsLabDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/WhizzExerciseDAO.java:[29,25] cannot find symbol
+  symbol:   class Whizzexercise
+  location: class com.italk2learn.dao.WhizzExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/WhizzExerciseDAO.java:[29,46] cannot find symbol
+  symbol:   class Whizzexercise
+  location: class com.italk2learn.dao.WhizzExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/WhizzExerciseDAO.java:[30,25] cannot find symbol
+  symbol:   class User
+  location: class com.italk2learn.dao.WhizzExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/WhizzExerciseDAO.java:[30,35] cannot find symbol
+  symbol:   class User
+  location: class com.italk2learn.dao.WhizzExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/WhizzExerciseDAO.java:[30,54] cannot find symbol
+  symbol:   class User
+  location: class com.italk2learn.dao.WhizzExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/WhizzExerciseDAO.java:[31,25] cannot find symbol
+  symbol:   class Exercises
+  location: class com.italk2learn.dao.WhizzExerciseDAO
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.472s
+[INFO] Finished at: Fri Nov 21 17:42:29 CET 2014
+[INFO] Final Memory: 16M/39M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project italk2learn: Compilation failure: Compilation failure:
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/inter/IExerciseDAO.java:[5,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/inter/IExerciseDAO.java:[11,21] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: interface com.italk2learn.dao.inter.IExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/inter/IExerciseDAO.java:[13,16] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: interface com.italk2learn.dao.inter.IExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/inter/IExerciseDAO.java:[23,16] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: interface com.italk2learn.dao.inter.IExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/inter/IExerciseDAO.java:[25,21] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: interface com.italk2learn.dao.inter.IExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/CTATExerciseDAO.java:[9,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/CTATExerciseDAO.java:[10,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/CTATExerciseDAO.java:[11,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[13,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[14,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[15,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[35,21] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[57,16] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[170,16] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[186,21] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/util/UserDetailsAssembler.java:[6,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/util/UserDetailsAssembler.java:[11,54] cannot find symbol
+[ERROR] symbol:   class Userdetails
+[ERROR] location: class com.italk2learn.util.UserDetailsAssembler
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/util/UserDetailsAssembler.java:[23,71] cannot find symbol
+[ERROR] symbol:   class Userdetails
+[ERROR] location: class com.italk2learn.util.UserDetailsAssembler
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/SequenceDAO.java:[10,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/SequenceDAO.java:[11,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/SequenceDAO.java:[12,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/FractionsLabDAO.java:[9,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/FractionsLabDAO.java:[10,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/FractionsLabDAO.java:[11,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/inter/ILoginUserDAO.java:[5,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/inter/ILoginUserDAO.java:[6,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/inter/ILoginUserDAO.java:[14,9] cannot find symbol
+[ERROR] symbol:   class User
+[ERROR] location: interface com.italk2learn.dao.inter.ILoginUserDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/inter/ILoginUserDAO.java:[16,14] cannot find symbol
+[ERROR] symbol:   class Userdetails
+[ERROR] location: interface com.italk2learn.dao.inter.ILoginUserDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/WhizzExerciseDAO.java:[9,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/WhizzExerciseDAO.java:[10,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/WhizzExerciseDAO.java:[11,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/util/ExerciseAssembler.java:[6,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/util/ExerciseAssembler.java:[11,56] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.util.ExerciseAssembler
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/util/ExerciseAssembler.java:[20,48] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.util.ExerciseAssembler
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/util/ExerciseAssembler.java:[30,65] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.util.ExerciseAssembler
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/LoginUserDAO.java:[15,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/LoginUserDAO.java:[16,25] package com.hibernate.dto does not exist
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/LoginUserDAO.java:[52,16] cannot find symbol
+[ERROR] symbol:   class User
+[ERROR] location: class com.italk2learn.dao.LoginUserDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/LoginUserDAO.java:[81,21] cannot find symbol
+[ERROR] symbol:   class Userdetails
+[ERROR] location: class com.italk2learn.dao.LoginUserDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/CTATExerciseDAO.java:[28,25] cannot find symbol
+[ERROR] symbol:   class Ctatexercise
+[ERROR] location: class com.italk2learn.dao.CTATExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/CTATExerciseDAO.java:[28,47] cannot find symbol
+[ERROR] symbol:   class Ctatexercise
+[ERROR] location: class com.italk2learn.dao.CTATExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/CTATExerciseDAO.java:[29,25] cannot find symbol
+[ERROR] symbol:   class User
+[ERROR] location: class com.italk2learn.dao.CTATExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/CTATExerciseDAO.java:[29,35] cannot find symbol
+[ERROR] symbol:   class User
+[ERROR] location: class com.italk2learn.dao.CTATExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/CTATExerciseDAO.java:[29,54] cannot find symbol
+[ERROR] symbol:   class User
+[ERROR] location: class com.italk2learn.dao.CTATExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/CTATExerciseDAO.java:[30,25] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.CTATExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/CTATExerciseDAO.java:[30,40] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.CTATExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/CTATExerciseDAO.java:[30,64] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.CTATExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[42,90] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[47,38] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[59,90] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[61,33] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[79,93] cannot find symbol
+[ERROR] symbol:   class Sequence
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[86,25] cannot find symbol
+[ERROR] symbol:   class Sequence
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[86,46] cannot find symbol
+[ERROR] symbol:   class Sequence
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[93,92] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[100,25] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[100,46] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[110,93] cannot find symbol
+[ERROR] symbol:   class Sequence
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[117,25] cannot find symbol
+[ERROR] symbol:   class Sequence
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[117,46] cannot find symbol
+[ERROR] symbol:   class Sequence
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[119,92] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[126,25] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[126,46] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[138,93] cannot find symbol
+[ERROR] symbol:   class Sequence
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[145,25] cannot find symbol
+[ERROR] symbol:   class Sequence
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[145,46] cannot find symbol
+[ERROR] symbol:   class Sequence
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[146,31] cannot find symbol
+[ERROR] symbol:   class Sequence
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[146,50] cannot find symbol
+[ERROR] symbol:   class Sequence
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[146,73] cannot find symbol
+[ERROR] symbol:   class Sequence
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[160,25] cannot find symbol
+[ERROR] symbol:   class User
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[160,34] cannot find symbol
+[ERROR] symbol:   class User
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[160,53] cannot find symbol
+[ERROR] symbol:   class User
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[173,25] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[173,39] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[173,63] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[188,90] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/ExerciseDAO.java:[189,38] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.ExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/util/UserDetailsAssembler.java:[27,22] cannot find symbol
+[ERROR] symbol:   class Userdetails
+[ERROR] location: class com.italk2learn.util.UserDetailsAssembler
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/SequenceDAO.java:[35,13] cannot find symbol
+[ERROR] symbol:   class User
+[ERROR] location: class com.italk2learn.dao.SequenceDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/SequenceDAO.java:[35,23] cannot find symbol
+[ERROR] symbol:   class User
+[ERROR] location: class com.italk2learn.dao.SequenceDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/SequenceDAO.java:[35,42] cannot find symbol
+[ERROR] symbol:   class User
+[ERROR] location: class com.italk2learn.dao.SequenceDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/SequenceDAO.java:[39,17] cannot find symbol
+[ERROR] symbol:   class Sequence
+[ERROR] location: class com.italk2learn.dao.SequenceDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/SequenceDAO.java:[39,34] cannot find symbol
+[ERROR] symbol:   class Sequence
+[ERROR] location: class com.italk2learn.dao.SequenceDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/SequenceDAO.java:[40,25] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.SequenceDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/SequenceDAO.java:[40,40] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.SequenceDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/SequenceDAO.java:[40,64] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.SequenceDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/FractionsLabDAO.java:[28,25] cannot find symbol
+[ERROR] symbol:   class Flexercise
+[ERROR] location: class com.italk2learn.dao.FractionsLabDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/FractionsLabDAO.java:[28,43] cannot find symbol
+[ERROR] symbol:   class Flexercise
+[ERROR] location: class com.italk2learn.dao.FractionsLabDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/FractionsLabDAO.java:[29,25] cannot find symbol
+[ERROR] symbol:   class User
+[ERROR] location: class com.italk2learn.dao.FractionsLabDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/FractionsLabDAO.java:[29,35] cannot find symbol
+[ERROR] symbol:   class User
+[ERROR] location: class com.italk2learn.dao.FractionsLabDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/FractionsLabDAO.java:[29,54] cannot find symbol
+[ERROR] symbol:   class User
+[ERROR] location: class com.italk2learn.dao.FractionsLabDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/FractionsLabDAO.java:[30,25] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.FractionsLabDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/FractionsLabDAO.java:[30,40] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.FractionsLabDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/FractionsLabDAO.java:[30,64] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.FractionsLabDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/WhizzExerciseDAO.java:[29,25] cannot find symbol
+[ERROR] symbol:   class Whizzexercise
+[ERROR] location: class com.italk2learn.dao.WhizzExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/WhizzExerciseDAO.java:[29,46] cannot find symbol
+[ERROR] symbol:   class Whizzexercise
+[ERROR] location: class com.italk2learn.dao.WhizzExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/WhizzExerciseDAO.java:[30,25] cannot find symbol
+[ERROR] symbol:   class User
+[ERROR] location: class com.italk2learn.dao.WhizzExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/WhizzExerciseDAO.java:[30,35] cannot find symbol
+[ERROR] symbol:   class User
+[ERROR] location: class com.italk2learn.dao.WhizzExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/WhizzExerciseDAO.java:[30,54] cannot find symbol
+[ERROR] symbol:   class User
+[ERROR] location: class com.italk2learn.dao.WhizzExerciseDAO
+[ERROR] /D:/it2l_tutta/it2l-platform_jose_new/src/main/java/com/italk2learn/dao/WhizzExerciseDAO.java:[31,25] cannot find symbol
+[ERROR] symbol:   class Exercises
+[ERROR] location: class com.italk2learn.dao.WhizzExerciseDAO
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
