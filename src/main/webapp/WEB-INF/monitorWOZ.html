@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:tiles="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org" lang="en">
+<head>
+	<title>monitorWOZ</title>
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+	<style>
+		table, th, td {
+		    border: 1px solid black;
+		    border-collapse: collapse;
+		}
+		th, td {
+		    padding: 5px;
+		}
+	</style>
+</head>
+<body tiles:fragment="content" bgcolor="#ffffff">
+	<h1 align="center">Wizard of Oz-Monitor</h1>
+	<table>
+		<tr align="left">
+			<td align="left">
+				<table>
+					<tr>
+    					<th>Connect to WOZ</th>
+					</tr>
+					<tr>
+					 	<td>
+					 		<form th:object="${messageInfo}">
+								Choose an user 
+								<select id="usList" th:field="*{exercise}">
+	             				    <option th:each="user : ${allStudents}" th:value="${user.user}" th:text="${user.user}">Option</option>
+	           					</select>
+	           					</form>		
+						</td>
+						<td>
+							<input id="submitUser" name="submitUser" type="button" value="Connect" />						
+						</td>
+					</tr>  
+				</table>
+				<table>
+						<tr>
+    						<th>Choose a sequence for an user</th>
+						</tr>
+						<tr>
+						 	<td>
+								User 
+							</td>
+							<td>
+								<input id="user" name="user" type="text" th:value="*{user}" />
+							</td>	
+						</tr>
+						<tr>
+							<td>
+								Write id's separated by commas
+							</td>
+							<td>
+								<input id="exList" name="exList" type="text" th:value="*{idUser}" size="50"/>
+							</td>
+						</tr>
+						<tr>
+							<td>
+							</td>
+							<td align="right">
+								<input id="submit" name="submit" type="button" value="Submit" />
+							</td>
+						</tr>
+				</table>
+			</td>
+		</tr>
+		<tr align="left">
+			<td align="left">
+				<div id='chat-area'>
+				     <ul></ul>
+			    </div>
+			</td>
+			<td>
+			 <table>
+			 <tr>
+			 	<td>
+					<input type="submit" id="testConn" value="Test Conn"/>				
+				</td>
+			 </tr>
+			 <tr>
+			 	<td>
+					<input type="submit" id="nextBHandler" value="Disable Next"/>				
+				</td>
+			 </tr>
+			 <tr>
+			 	<td>
+					<input type="submit" id="doneBHandler" value="Disable Done"/>				
+				</td>
+			 </tr>
+			 </table>
+			</td>
+		</tr>
+	</table>
+    <!-- approval dialog -->
+    <div id='approve_dialog' class='hidden'>
+      <p><span id='approve-jid'></span> has requested a subscription
+        to your presence.  Approve or deny?</p>
+    </div>
+    <script src="http://ajax.cdnjs.com/ajax/libs/json2/20110223/json2.js"></script>
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.js'></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.js'></script>
+    <script src='js/scripts/strophe.js'></script>
+    <script src='js/scripts/flXHR.js'></script>
+    <script src='js/scripts/strophe.flxhr.js'></script>
+    <script src='js/monitorWOZ.js'></script>
+    <script src='js/submitWOZ.js'></script>
+</body>
+</html>

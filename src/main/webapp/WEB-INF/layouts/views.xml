@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+	
+    <definition name="standardLayout" template="/layouts/standard.html" templateType="thymeleaf"/>
+    <definition name="standardLayout2" template="/layouts/standard2.html" templateType="thymeleaf"/>
+    <definition name="standardFractionsLab" template="/layouts/standardFractionsLab.html" templateType="thymeleaf"/>
+    <definition name="standardWhizz" template="/layouts/standardWhizz.html" templateType="thymeleaf"/>
+    <definition name="standardCTAT" template="/layouts/standardCTAT.html" templateType="thymeleaf"/>
+    <definition name="standardWOZ" template="/layouts/standardWOZ.html" templateType="thymeleaf"/>
+    
+</tiles-definitions>
