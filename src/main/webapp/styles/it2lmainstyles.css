@@ -222,36 +222,50 @@
 			
 			
 			
-			
-			.it2lSoundbutton  {
-				background-image:url('../../images/bt_sound_on.png');
+			.it2lSoundOnbutton  {
+				background-image:url('../images/bt_sound_on.png');
 				background-repeat:no-repeat;
 				background-position:center center; 
-				background-color: rgba(255, 255, 255, 0.0f);
+				background-color: #eaebec;
 				width:50px;
 				height:50px;
 				border: 0px;
 				outline: none;
 			}
-			.it2lSoundbutton:hover {
-				background-image:url('../../images/bt_sound_on_ov.png');
+			.it2lSoundOnbutton:hover {
+				background-image:url('../images/bt_sound_on_ov.png');
 				outline: none;
 				text-decoration: none;
 			}
 
-			.it2lSoundbutton:active  {
-				background-image:url('../../images/bt_sound_on_dn.png');
+			.it2lSoundOnbutton:active  {
+				background-image:url('../images/bt_sound_on_dn.png');
 				outline: none;
 				text-decoration: none;
-			}
-
-			.it2lSoundbutton:disabled {
-				background-image:url('../../images/bt_sound_off.png');
 			}
 			
-			.it2lSoundbutton:disabled:hover {
-				background-image:url('../../images/bt_sound_off_ov.png');
+			.it2lSoundOffbutton  {
+				background-image:url('../images/bt_sound_off.png');
+				background-repeat:no-repeat;
+				background-position:center center; 
+				background-color: #eaebec;
+				width:50px;
+				height:50px;
+				border: 0px;
+				outline: none;
 			}
+			.it2lSoundOffbutton:hover {
+				background-image:url('../images/bt_sound_off_ov.png');
+				outline: none;
+				text-decoration: none;
+			}
+
+			.it2lSoundOffbutton:active  {
+				background-image:url('../images/bt_sound_off_dn.png');
+				outline: none;
+				text-decoration: none;
+			}
+			
 			
 			form {
 				margin-right:1cm;
