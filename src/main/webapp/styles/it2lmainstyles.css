@@ -164,7 +164,7 @@
 			
 			
 			.it2lNextbutton  {
-				background-image:url('../../images/arrow-right.png');
+				background-image:url('../images/arrow-right.png');
 				background-repeat:no-repeat;
 				background-position:center center; 
 				background-color: #eaebec;
@@ -174,24 +174,68 @@
 				outline: none;
 			}
 			.it2lNextbutton:hover {
-				background-image:url('../../images/arrow-right_ov.png');
+				background-image:url('../images/arrow-right_ov.png');
 				outline: none;
 				text-decoration: none;
 			}
 						
 			.it2lNextbutton:active  {
-				background-image:url('../../images/arrow-right_dn.png');
+				background-image:url('../images/arrow-right_dn.png');
 				outline: none;
 				text-decoration: none;
 			}
 			
 			.it2lNextbutton:disabled {
-				background-image:url('../../images/arrow-right-disabled.png');
+				background-image:url('../images/arrow-right-disabled.png');
+			}
+			
+			.it2lNextbuttonON  {
+				background-image:url('../images/arrow-right.png');
+				background-repeat:no-repeat;
+				background-position:center center; 
+				background-color: #eaebec;
+				width:50px;
+				height:50px;
+				border: 0px;
+				outline: none;
+			}
+			.it2lNextbuttonON:hover {
+				background-image:url('../images/arrow-right_ov.png');
+				outline: none;
+				text-decoration: none;
+			}
+						
+			.it2lNextbuttonON:active  {
+				background-image:url('../images/arrow-right_dn.png');
+				outline: none;
+				text-decoration: none;
+			}
+			
+			.it2lNextbuttonOFF  {
+				background-image:url('../images/arrow-right-disabled.png');
+				background-repeat:no-repeat;
+				background-position:center center; 
+				background-color: #eaebec;
+				width:50px;
+				height:50px;
+				border: 0px;
+				outline: none;
+			}
+			.it2lNextbuttonOFF:hover {
+				background-image:url('../images/arrow-right_ov.png');
+				outline: none;
+				text-decoration: none;
+			}
+						
+			.it2lNextbuttonOFF:active  {
+				background-image:url('../images/arrow-right_dn.png');
+				outline: none;
+				text-decoration: none;
 			}
 		
 			
 			.it2lHelpbutton  {
-				background-image:url('../../images/lightbulb_on.png');
+				background-image:url('../images/lightbulb_on.png');
 				background-repeat:no-repeat;
 				background-position:center center; 
 				background-color: #eaebec;
@@ -201,27 +245,69 @@
 				outline: none;
 			}
 			.it2lHelpbutton:hover {
-				background-image:url('../../images/lightbulb_on_ov.png');
+				background-image:url('../images/lightbulb_on_ov.png');
 				outline: none;
 				text-decoration: none;
 			}
 
 			.it2lHelpbutton:active  {
-				background-image:url('../../images/lightbulb_on_dn.png');
+				background-image:url('../images/lightbulb_on_dn.png');
 				outline: none;
 				text-decoration: none;
 			}
 
 			.it2lHelpbutton:disabled {
-				background-image:url('../../images/lightbulb_off.png');
+				background-image:url('../images/lightbulb_off.png');
 			}
 			
 			.it2lHelpbutton:disabled:hover {
-				background-image:url('../../images/lightbulb_off_ov.png');
+				background-image:url('../images/lightbulb_off_ov.png');
 			}
 			
+			.it2lHelpbuttonON  {
+				background-image:url('../images/lightbulb_on.png');
+				background-repeat:no-repeat;
+				background-position:center center; 
+				background-color: #eaebec;
+				width:50px;
+				height:50px;
+				border: 0px;
+				outline: none;
+			}
+			.it2lHelpbuttonON:hover {
+				background-image:url('../images/lightbulb_on_ov.png');
+				outline: none;
+				text-decoration: none;
+			}
+
+			.it2lHelpbuttonON:active  {
+				background-image:url('../images/lightbulb_on_dn.png');
+				outline: none;
+				text-decoration: none;
+			}
 			
-			
+			.it2lHelpbuttonOFF  {
+				background-image:url('../images/lightbulb_off.png');
+				background-repeat:no-repeat;
+				background-position:center center; 
+				background-color: #eaebec;
+				width:50px;
+				height:50px;
+				border: 0px;
+				outline: none;
+			}
+			.it2lHelpbuttonOFF:hover {
+				background-image:url('../images/lightbulb_off_ov.png');
+				outline: none;
+				text-decoration: none;
+			}
+
+			.it2lHelpbuttonOFF:active  {
+				background-image:url('../images/lightbulb_off_dn.png');
+				outline: none;
+				text-decoration: none;
+			}
+
 			.it2lSoundOnbutton  {
 				background-image:url('../images/bt_sound_on.png');
 				background-repeat:no-repeat;
@@ -243,7 +329,7 @@
 				outline: none;
 				text-decoration: none;
 			}
-			
+
 			.it2lSoundOffbutton  {
 				background-image:url('../images/bt_sound_off.png');
 				background-repeat:no-repeat;
